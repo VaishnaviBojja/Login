@@ -1,0 +1,148 @@
+
+.main-div{
+    width: 100%;
+    padding: 2.5rem;
+    background-color: rgb(255 255 255);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-width: 1px;
+    border-radius: 0.25rem;
+   
+    .start-div{
+        margin-bottom: 1.5rem;
+        
+        .start-div,p{
+            text-align: center;
+            color: rgb(107 114 128);
+            font-size: 0.875rem; 
+            line-height: 1.25rem;
+        }
+    }
+
+    .mail-div{
+        margin-bottom: 1rem;
+
+        #email{
+            height: 2.5rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            border-width: 1px;
+            border-radius: 0.25rem;
+            width: 100%;
+            color: rgb(55 65 81);
+            line-height: 1.25;
+            
+        }
+        #email:focus{
+            outline-style: none;
+            border: 1px solid #fd36e9;
+                -webkit-box-shadow: 0px 0px 5px rgba(251, 28, 203, 0.923);
+                -moz-box-shadow: 0px 0px 5px rgba(247, 22, 202, 0.944);
+                box-shadow: 0px 0px 5px rgb(252, 9, 216);
+                
+        }
+    }
+    .password-div{
+        margin-bottom: 1.5rem;
+        #password{
+            height: 2.5rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            border-width: 1px;
+            border-radius: 0.25rem;
+            width: 100%;
+            color: rgb(55 65 81);
+            line-height: 1.25;
+           
+        }
+        #password:focus{
+            outline-style: none;
+            border: 1px solid #fd36e9;
+                -webkit-box-shadow: 0px 0px 5px rgba(251, 28, 203, 0.923);
+                -moz-box-shadow: 0px 0px 5px rgba(247, 22, 202, 0.944);
+                box-shadow: 0px 0px 5px rgb(252, 9, 216);
+                
+        }
+    }
+    .username-div{
+        margin-bottom: 1rem;
+        #username{
+            height: 2.5rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            border-width: 1px;
+            border-radius: 0.25rem;
+            width: 100%;
+            color: rgb(55 65 81);
+            line-height: 1.25;
+        }
+        #username:focus{
+            outline-style: none;
+            border: 1px solid #fd36e9;
+                -webkit-box-shadow: 0px 0px 5px rgba(251, 28, 203, 0.923);
+                -moz-box-shadow: 0px 0px 5px rgba(247, 22, 202, 0.944);
+                box-shadow: 0px 0px 5px rgb(252, 9, 216);
+                
+        }
+    }
+    .check{
+        accent-color: #ec4899;
+    }
+        .check-l{
+            text-align: center;
+            color: rgb(107 114 128);
+            font-size: 0.75rem; 
+            line-height: 1rem;
+            .span-1{
+             margin-left: 0.5rem;
+            }
+            .span-2{
+            font-weight: 700;
+            }
+        }
+    
+    .button{
+        background-color: rgb(236 72 153);
+        color: rgb(255 255 255);
+        font-weight: 500;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 100%;
+        height: 2rem;
+        border-radius: 0.25rem;
+    }
+    .button:hover{
+        background-color: rgb(190 24 93);
+    }
+    .button:focus{
+        outline-style: none;
+        border: 1px solid #fd36e9;
+                -webkit-box-shadow: 0px 0px 5px rgba(251, 28, 203, 0.923);
+                -moz-box-shadow: 0px 0px 5px rgba(247, 22, 202, 0.944);
+                box-shadow: 0px 0px 5px rgb(252, 9, 216);
+                
+        
+    }
+    .sign-div{
+        display: flex;
+        align-items: center;
+        .sign-div-p{
+            text-align: center;
+            color: rgb(107 114 128);
+            font-size: 0.75rem; 
+            line-height: 1rem;
+           
+        }
+        .sign-div-l{
+            display: inline-block;
+            vertical-align: baseline;
+            font-size: 0.75rem; 
+            line-height: 1rem;
+            font-weight: 700;
+            margin-left:0.5rem;
+            color: rgb(236 72 153);
+        }
+        .sign-div-l:hover{
+            color: rgb(157 23 77);
+        }
+    }
+}
